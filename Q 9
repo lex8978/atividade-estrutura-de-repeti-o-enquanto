@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+    inteiro contador = 1
+    inteiro pares = 0
+    enquanto (contador <= 10){
+       escreva("Digite um numero: ")
+      leia(numero)
+
+       se(numero == 0 ou numero == 2 ou numero == 4 ou numero == 6 ou numero == 8){
+        pares = pares + 1
+      }
+      contador = contador + 1 
+    }
+    escreva("\nQuantidade de numeros pares: ", pares)
+    
+  }
+}
