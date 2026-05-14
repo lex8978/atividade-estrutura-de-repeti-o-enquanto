@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    real n = 10.0
+  
+  
+
+    enquanto(n>=0){
+    escreva("\n" ,  n)
+    n = n - 1
+    
+    }
+  }
+}
