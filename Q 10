@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    inteiro numero, maior, contador = 1
+    enquanto(contador <= 5){
+
+      escreva("Digite um numero: ")
+      leia(numero)
+
+      se(contador == 1){
+        maior = numero
+      }
+
+      se(numero > maior){
+        maior = numero
+      }
+
+      contador = contador + 1
+    }
+
+    escreva("\nMaior numero digitado: ", maior)
+  }
+}
