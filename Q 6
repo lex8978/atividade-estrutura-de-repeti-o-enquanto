@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+    inteiro contador = 1
+    escreva("Digite seu numero ")
+    leia(numero)
+
+    enquanto(contador <=10){
+      escreva("\n",numero, "x",contador, "=",contador * numero)
+      contador = contador + 1
+      
+    }
+  }
+}
